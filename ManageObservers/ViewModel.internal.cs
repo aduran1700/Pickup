@@ -1,8 +1,25 @@
-﻿
+﻿using System.Linq;
 
-namespace ManageObservers
+namespace NotifyObservers
 {
-    public partial class ViewModel
+    public partial class NotifyObserversViewModel
     {
+        void OnBroadcastLocation(object obj)
+        {
+            _provider.BroadcastLocation();
+            LocationBroadcasted = true;
+        }
+
+        void OnBroadcastMessage(object obj)
+        {
+            _provider.Send(Message);
+            MessageBroadcasted = true;
+        }
+
+        bool CanBroadcast(object obj)
+        {
+            if (Observers.Any()) return true;
+            return false;
+        }
     }
 }

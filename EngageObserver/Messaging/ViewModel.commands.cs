@@ -1,6 +1,6 @@
 ﻿using Bizmonger.Patterns;
 
-namespace EngageObserver
+namespace EngageObserver.Message
 {
     public partial class ViewModel
     {

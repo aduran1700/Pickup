@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConfirmInteraction
+namespace EngageObserver.Confirmation
 {
     public partial class ViewModel
     {

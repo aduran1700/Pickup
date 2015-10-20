@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Bizmonger.Patterns;
 
-namespace ManageObservers
+namespace NotifyObservers
 {
-    public partial class ViewModel
+    public partial class NotifyObserversViewModel
     {
+        public DelegateCommand BroadcastLocation { get; private set; }
+        public DelegateCommand BroadcastMessage { get; private set; }
+
         protected override void ActivateCommands()
         {
-            throw new NotImplementedException();
+            BroadcastLocation = new DelegateCommand(OnBroadcastLocation, CanBroadcast);
+            BroadcastMessage = new DelegateCommand(OnBroadcastMessage, CanBroadcast);
         }
     }
 }

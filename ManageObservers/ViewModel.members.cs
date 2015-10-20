@@ -2,7 +2,7 @@
 
 namespace NotifyObservers
 {
-    public partial class ViewModel
+    public partial class NotifyObserversViewModel
     {
         Provider _provider = new Provider();
     }

@@ -1,6 +1,6 @@
 ﻿using Core;
 
-namespace ManageObservers
+namespace ViewMenu
 {
     public sealed partial class ViewModel : ViewModelBase
     {

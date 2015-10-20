@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ConfirmInteraction.View">
-  <Label Text="Engage Observer" VerticalOptions="Center" HorizontalOptions="Center" />
+             Title="Home"
+             x:Class="ViewMenu.View">
+  <Label Text="Main Menu" VerticalOptions="Center" HorizontalOptions="Center" />
 </ContentPage>

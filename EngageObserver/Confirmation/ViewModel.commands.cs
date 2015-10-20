@@ -1,7 +1,7 @@
 ﻿using System;
 using Bizmonger.Patterns;
 
-namespace ConfirmInteraction
+namespace EngageObserver.Confirmation
 {
     public partial class ViewModel
     {

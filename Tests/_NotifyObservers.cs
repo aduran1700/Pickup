@@ -17,7 +17,7 @@ namespace Tests
         public void cannot_broadcast_location_without_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Observers.Clear();
 
             // Test
@@ -31,7 +31,7 @@ namespace Tests
         public void cannot_broadcast_message_without_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Observers.Clear();
 
             // Test
@@ -45,7 +45,7 @@ namespace Tests
         public void can_broadcast_location_with_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Observers.Add(new Core.Observer());
 
             // Test
@@ -59,7 +59,7 @@ namespace Tests
         public void can_broadcast_message_with_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Observers.Add(new Core.Observer());
 
             // Test
@@ -73,7 +73,7 @@ namespace Tests
         public void broadcast_location_with_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Observers.Add(new Core.Observer());
 
             // Test
@@ -87,7 +87,7 @@ namespace Tests
         public void broadcast_message_with_observers()
         {
             // Setup
-            var viewModel = new ViewModel();
+            var viewModel = new NotifyObserversViewModel();
             viewModel.Message = new Core.Message(SOME_TEXT, SOME_TEXT);
             viewModel.Observers.Add(new Core.Observer());
 

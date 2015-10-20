@@ -3,9 +3,9 @@ using Core;
 
 namespace NotifyObservers
 {
-    public sealed partial class ViewModel : ViewModelBase
+    public sealed partial class NotifyObserversViewModel : ViewModelBase
     {
-        public ViewModel()
+        public NotifyObserversViewModel()
         {
             ActivateCommands();
         }

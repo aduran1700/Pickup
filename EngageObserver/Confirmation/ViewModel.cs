@@ -1,6 +1,6 @@
 ﻿using Core;
 
-namespace ConfirmInteraction
+namespace EngageObserver.Confirmation
 {
     public sealed partial class ViewModel : ViewModelBase
     {
