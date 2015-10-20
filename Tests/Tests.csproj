@@ -94,10 +94,6 @@
       <Project>{23760572-7ecb-429e-b0e7-b63ae03c9943}</Project>
       <Name>Mediation</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MonitorObservers\MonitorObservers.csproj">
-      <Project>{1507ac32-de43-4616-84fe-a2b530ac63bb}</Project>
-      <Name>MonitorObservers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NotifyObservers\NotifyObservers.csproj">
       <Project>{17d3307c-6146-4d3e-b3f4-c39f7656296c}</Project>
       <Name>NotifyObservers</Name>
