@@ -1,4 +1,5 @@
-﻿using Bizmonger.Patterns;
+﻿using System;
+using Bizmonger.Patterns;
 
 namespace ManageProfile
 {
@@ -7,7 +8,7 @@ namespace ManageProfile
         public DelegateCommand Save { get; set; }
         protected override void ActivateCommands()
         {
-
+            Save = new DelegateCommand(OnSave, CanSave);
         }
     }
 }

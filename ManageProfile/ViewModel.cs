@@ -7,6 +7,7 @@ namespace ManageProfile
         public ViewModel()
         {
             ActivateCommands();
+            SendRequests();
         }
 
         string _firstName = null;

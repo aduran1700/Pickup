@@ -47,6 +47,9 @@
     <Compile Include="ViewModel.internal.cs">
       <DependentUpon>ViewModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel.members.cs">
+      <DependentUpon>ViewModel.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Bizmonger.Patterns">
