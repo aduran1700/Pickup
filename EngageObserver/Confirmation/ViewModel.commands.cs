@@ -7,9 +7,9 @@ namespace EngageObserver.Confirmation
     {
         protected override void ActivateCommands()
         {
-            InteractionConfirmed = new DelegateCommand(OnInteractionConfirmed, CanConfirm);
+            ConfirmInteration = new DelegateCommand(obj => ConfirmationRequested = true, CanConfirm);
         }
 
-        public DelegateCommand InteractionConfirmed { get; private set; }
+        public DelegateCommand ConfirmInteration { get; private set; }
     }
 }

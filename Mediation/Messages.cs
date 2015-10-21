@@ -12,6 +12,11 @@
         public const string REQUEST_PROFILE = "REQUEST_PROFILE";
         public const string REQUEST_PROFILE_RESPONSE = "REQUEST_PROFILE_RESPONSE";
 
+        public const string OBSERVER_TO_MESSAGE = "OBSERVER_TO_MESSAGE";
+        public const string CONFIRM_INTERACTION = "CONFIRM_INTERACTION";
+
+        public const string REQUEST_VIEW_CONFIRM_INTERACTION = "REQUEST_VIEW_CONFIRM_INTERACTION";
+
         public const string LOCATION_CHANGED = "LOCATION_CHANGED";
     }
 }

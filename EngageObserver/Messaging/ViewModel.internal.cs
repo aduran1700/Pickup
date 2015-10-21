@@ -1,5 +1,7 @@
 ﻿using Core;
 using System.Collections.Generic;
+using static Bizmonger.Patterns.MessageBus;
+using static Mediation.Messages;
 
 namespace EngageObserver.Message
 {
@@ -14,6 +16,11 @@ namespace EngageObserver.Message
         bool CanSendMessage(object obj)
         {
             return false;
+        }
+
+        public void SendRequests()
+        {
+            Subscribe(OBSERVER_TO_MESSAGE, obj => Observer = obj as Observer);
         }
     }
 }

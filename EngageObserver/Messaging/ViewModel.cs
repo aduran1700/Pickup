@@ -10,6 +10,7 @@ namespace EngageObserver.Message
             Provider = new Provider();
             Messages = new ObservableCollection<Core.Message>();
             ActivateCommands();
+            SendRequests();
         }
 
         public Provider Provider { get; set; }

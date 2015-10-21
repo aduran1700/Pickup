@@ -8,10 +8,5 @@ namespace EngageObserver.Confirmation
         {
             throw new NotImplementedException();
         }
-
-        void OnInteractionConfirmed(object obj)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
