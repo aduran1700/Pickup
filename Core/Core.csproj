@@ -40,7 +40,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INavigationStack.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Provider.cs" />
     <Compile Include="Carrier.internal.cs">

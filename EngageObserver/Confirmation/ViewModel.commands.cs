@@ -1,5 +1,4 @@
-﻿using System;
-using Bizmonger.Patterns;
+﻿using Bizmonger.Patterns;
 
 namespace EngageObserver.Confirmation
 {

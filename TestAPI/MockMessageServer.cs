@@ -1,7 +1,7 @@
 ﻿using Core;
 using static Bizmonger.Patterns.MessageBus;
 
-namespace Tests
+namespace TestAPI
 {
     public class MockMessageServer : IMessageServer
     {

@@ -1,11 +1,12 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Core;
+using EngageObserver.Message;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static TestAPI.Gimme;
+using TestAPI;
 using static Bizmonger.Patterns.MessageBus;
 using static Mediation.Messages;
-using System.Collections.Generic;
-using EngageObserver.Message;
+using static TestAPI.Gimme;
 
 namespace Tests
 {

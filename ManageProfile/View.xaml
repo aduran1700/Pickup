@@ -9,5 +9,27 @@
     <local:ViewModel />
   </ContentPage.BindingContext>
 
-  <Label Text="Manage Profile" VerticalOptions="Center" HorizontalOptions="Center" />
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition Height="auto"/>
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition />
+      <ColumnDefinition />
+    </Grid.ColumnDefinitions>
+
+    <Entry Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Alias}" Placeholder="username" TextColor="#99D9EA" />
+    <Entry Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Email}" Placeholder="email" />
+    <Entry Grid.Row="2" Grid.Column="0" Text="{Binding Phone}" Placeholder="phone" />
+
+    <Button Grid.Row="3" Grid.Column="0" Text="Cancel" Command="{Binding Cancel}" />
+    <Button Grid.Row="3" Grid.Column="1" Text="Save" Command="{Binding Save}" />
+  </Grid>
 </ContentPage>

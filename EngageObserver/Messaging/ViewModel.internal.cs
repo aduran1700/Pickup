@@ -1,5 +1,5 @@
-﻿using Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Core;
 using static Bizmonger.Patterns.MessageBus;
 using static Mediation.Messages;
 

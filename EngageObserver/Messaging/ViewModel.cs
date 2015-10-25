@@ -1,5 +1,5 @@
-﻿using Core;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
+using Core;
 
 namespace EngageObserver.Message
 {

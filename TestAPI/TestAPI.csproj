@@ -42,7 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mock.cs" />
+    <Compile Include="MockMessageServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Bizmonger.Patterns">
+      <HintPath>..\Core\Bizmonger.Patterns.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
